@@ -34,6 +34,14 @@ a {
 .navbar-bg-color {
   background: #C86C61
 }
+.banner {
+  background: url("https://standfortrees.org/wp-content/uploads/2020/03/pfc-boy-web-scaled.jpg")
+    no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 .footer-bg-color {
-  background: #9e5917
+  background: #9e5917;
 }
