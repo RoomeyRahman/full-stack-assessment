@@ -28,14 +28,14 @@ a {
     margin: 0;
   }
 }
-.mble-navbar-bg-color{
+.mble-navbar-bg-color {
   background: #799900;
 }
 .navbar-bg-color {
-  background: #C86C61
+  background: #c86c61;
 }
-.tooltip-bg-color{
-  background: rgb(110 203 183)!important;
+.tooltip-bg-color {
+  background: rgb(110 203 183) !important;
 }
 .banner {
   background: url("https://standfortrees.org/wp-content/uploads/2020/03/pfc-boy-web-scaled.jpg")
@@ -44,6 +44,12 @@ a {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
 }
 .footer-bg-color {
   background: #9e5917;
