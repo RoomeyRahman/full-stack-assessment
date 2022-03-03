@@ -34,6 +34,9 @@ a {
 .navbar-bg-color {
   background: #C86C61
 }
+.tooltip-bg-color{
+  background: rgb(110 203 183)!important;
+}
 .banner {
   background: url("https://standfortrees.org/wp-content/uploads/2020/03/pfc-boy-web-scaled.jpg")
     no-repeat;
