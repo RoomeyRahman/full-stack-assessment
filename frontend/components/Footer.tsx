@@ -2,12 +2,13 @@ import React from "react";
 import dynamic from "next/dynamic";
 
 const Img = dynamic(() => import("./Image_Loader"));
+const ErrorBoundary = dynamic(() => import("./Error_Boundary"));
 
 type IProps = {};
 
 const Footer: React.FunctionComponent<IProps> = () => {
   return (
-    <React.Fragment>
+    <ErrorBoundary>
       <footer className="border-t border-gray-200 footer-bg-color">
         <div
           className="
@@ -205,7 +206,7 @@ const Footer: React.FunctionComponent<IProps> = () => {
           style={{ background: "#799900" }}
         ></div>
       </footer>
-    </React.Fragment>
+    </ErrorBoundary>
   );
 };
 
