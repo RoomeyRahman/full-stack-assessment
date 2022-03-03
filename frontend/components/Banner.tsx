@@ -25,6 +25,7 @@ const Banner: React.FunctionComponent<{}> = () => {
       </>
     );
   };
+
   return (
     <div className="h-full w-full">
       <div
@@ -66,16 +67,19 @@ const Banner: React.FunctionComponent<{}> = () => {
                       </div>
                       <div className="flex space-x-4 pt-3">
                         <div className="">USD </div>
-                        <i className="fas fa-search text-xl"></i>
-                        <i className="fas fa-user text-xl"></i>
-                        <i className="fas fa-briefcase text-xl"></i>
+                        <i aria-hidden className="fas fa-search text-xl"></i>
+                        <i aria-hidden className="fas fa-user text-xl"></i>
+                        <i aria-hidden className="fas fa-briefcase text-xl"></i>
                         <Disclosure.Button className="inline-flex items-center justify-center px-2 rounded-md text-gray-400 hover:text-white sm:hidden">
                           {open ? (
-                            <i className="far fa-times-circle block text-xl text-white"></i>
+                            <i
+                              aria-hidden
+                              className="far fa-times-circle block text-xl text-white"
+                            ></i>
                           ) : (
                             <i
+                              aria-hidden
                               className="fas fa-bars block text-xl text-white"
-                              aria-hidden="true"
                             ></i>
                           )}
                         </Disclosure.Button>
@@ -93,6 +97,6 @@ const Banner: React.FunctionComponent<{}> = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Banner;

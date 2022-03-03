@@ -7,12 +7,12 @@ const Navbar: React.FunctionComponent<{}> = () => {
         <ul className="flex text-white space-x-4 text-md">
           <li>
             <a target="_blank" href="http://twitter.com/StandForTrees">
-              <i className="fa fa-twitter"></i>
+              <i aria-hidden className="fa fa-twitter"></i>
             </a>
           </li>
           <li>
             <a target="_blank" href="https://www.facebook.com/standfortrees">
-              <i className="fa fa-facebook"></i>
+              <i aria-hidden className="fa fa-facebook"></i>
             </a>
           </li>
           <li>
@@ -20,17 +20,17 @@ const Navbar: React.FunctionComponent<{}> = () => {
               target="_blank"
               href="https://www.youtube.com/c/StandForTreesNow/featured"
             >
-              <i className="fa fa-youtube-play"></i>
+              <i aria-hidden className="fa fa-youtube-play"></i>
             </a>
           </li>
           <li>
             <a target="_blank" href="http://instagram.com/standfortrees">
-              <i className="fa fa-instagram"></i>
+              <i aria-hidden className="fa fa-instagram"></i>
             </a>
           </li>
           <li>
             <a target="_blank" href="mailto:info@standfortrees.org">
-              <i className="far fa-envelope"></i>
+              <i aria-hidden className="far fa-envelope"></i>
             </a>
           </li>
         </ul>
