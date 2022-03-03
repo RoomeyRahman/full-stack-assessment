@@ -15,7 +15,7 @@ interface ReqParams {
  * @param header: any
  * @returns response: AxiosResponse
  */
-const request = (link: string, params: ReqParams, header = null) => {
+const request = (link: string, params: ReqParams) => {
   const headers = {
     "Content-Type": "application/json",
     Authorization: "Bearer ",
