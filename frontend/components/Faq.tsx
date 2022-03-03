@@ -18,7 +18,6 @@ const Faq: React.FunctionComponent<{}> = () => {
         result.answer = faq.attributes.answer;
         return result;
       });
-      console.log(allFaqs);
       setFaqs(allFaqs);
     });
   }, []);
