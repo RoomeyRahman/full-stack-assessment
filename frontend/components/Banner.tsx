@@ -43,11 +43,11 @@ const Banner: React.FunctionComponent<{}> = () => {
             height: "calc(0.664 * 100vw)",
           }}
         >
-          <div>
+          <div className="sticky top-0">
             <Disclosure>
               {({ open }) => (
                 <>
-                  <div className="sticky top-0 mx-auto px-2 sm:px-6 lg:px-8 ">
+                  <div className="mx-auto px-2 sm:px-6 lg:px-8 ">
                     <div className="flex sm:justify-between justify-end">
                       <div className="sm:block hidden">
                         <img
